@@ -38,7 +38,7 @@ html {
 nav {
     position: relative;
     padding: 1vw 3vw;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,7 +112,7 @@ h3 {
     scroll-padding-inline: 5.2vw;
     padding-left: 5.2vw;
     flex-wrap: nowrap;
-    height: 70vh;
+    height: 75vh;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
     width: auto;

@@ -6,7 +6,7 @@
         padding-left: 3vw;
         scroll-padding-inline: 3vw;
         gap: 15px;
-        height: 70vh;
+        height: 75vh;
         overflow: hidden;
     }
     .card{
@@ -28,7 +28,7 @@
         padding-left: 4vw;
         scroll-padding-inline: 5.2vw;
         gap: 15px;
-        height: 70vh;
+        height: 75vh;
         overflow: hidden;
     }
     .card{
@@ -92,7 +92,7 @@
         scroll-padding-inline: 14vw;
         padding-left: 14vw;
         gap: 15px;
-        height: 70vh;
+        height: 75vh;
         overflow: hidden;
     }
     .card{
