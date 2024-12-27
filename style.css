@@ -113,6 +113,7 @@ h3 {
     padding-left: 5.2vw;
     flex-wrap: nowrap;
     height: 70vh;
+    -webkit-overflow-scrolling: touch;
     width: auto;
     max-width: none;
 }
