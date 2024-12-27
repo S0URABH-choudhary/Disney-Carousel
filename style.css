@@ -114,6 +114,7 @@ h3 {
     flex-wrap: nowrap;
     height: 70vh;
     -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
     width: auto;
     max-width: none;
 }

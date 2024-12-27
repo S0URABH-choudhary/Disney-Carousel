@@ -59,4 +59,30 @@ document.addEventListener("DOMContentLoaded", () => {
       behavior: "smooth",
     });
   });
+  
+
+// Variables to track touch and scroll position
+let isDragging = false;
+let startX;
+let scrollStart;
+
+scroller.addEventListener('touchstart', (e) => {
+    isDragging = true;
+    startX = e.touches[0].pageX; // Get the starting X position of the touch
+    scrollStart = scroller.scrollLeft; // Get the current scroll position
+    scroller.style.scrollBehavior = 'auto'; // Disable smooth scroll during drag
+});
+
+scroller.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    const currentX = e.touches[0].pageX; // Get the current X position
+    const deltaX = startX - currentX; // Calculate the movement delta
+    scroller.scrollLeft = scrollStart + deltaX; // Adjust the scroll position
+});
+
+scroller.addEventListener('touchend', () => {
+    isDragging = false;
+    scroller.style.scrollBehavior = 'smooth'; // Re-enable smooth scrolling
+});
+
 });
