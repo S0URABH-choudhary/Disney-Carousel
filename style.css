@@ -38,7 +38,7 @@ html {
 nav {
     position: relative;
     padding: 1vw 3vw;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,7 +112,7 @@ h3 {
     scroll-padding-inline: 5.2vw;
     padding-left: 5.2vw;
     flex-wrap: nowrap;
-    height: 75vh;
+    height: 70vh;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
     width: auto;
@@ -302,5 +302,10 @@ background: linear-gradient(45deg, rgba(122,64,38,1) 18%, rgba(245,163,113,1) 68
 .prev-next-buttons {
     display: flex;
     align-items: center;
+    user-select: none;
     gap: 25px;
+}
+.prev-next-buttons div{
+    pointer-events: auto;
+    user-select: none;
 }

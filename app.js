@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Scroll forward
   nextButton.addEventListener("click", () => {
-    console.log("clicked")
+    nextButton.addEventListener('mousedown', (e) => e.preventDefault());
     scroller.scrollBy({
       left: scrollAmount,
       behavior: "smooth",
@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Scroll backward
   prevButton.addEventListener("click", () => {
+    prevButton.addEventListener('mousedown', (e) => e.preventDefault());
     scroller.scrollBy({
       left: -scrollAmount,
       behavior: "smooth",
