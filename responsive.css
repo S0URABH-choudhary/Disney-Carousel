@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1025px) {
+    #loader img{
+        width: 100%;
+    }
+    .scroller{
+        padding-left: 3vw;
+        scroll-padding-inline: 3vw;
+        gap: 15px;
+        height: 70vh;
+        overflow: hidden;
+    }
+    .card{
+        flex: 0 0 32vw;
+        height: 25vh;
+    }
+    .menu i{
+        font: 14px;
+    }
+    .logo img{
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #loader img{
+        width: 100%;
+    }
+    .scroller{
+        padding-left: 4vw;
+        scroll-padding-inline: 5.2vw;
+        gap: 15px;
+        height: 70vh;
+        overflow: hidden;
+    }
+    .card{
+        flex: 0 0 32vw;
+        height: 25vh;
+    }
+    .menu i{
+        font: 14px;
+    }
+    .logo img{
+        height: 100px;
+    }
+    .search-bar{
+        left: 55%;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    #loader img{
+        width: 100%;
+    }
+
+    .menu h3{
+        display: none;
+    }
+    .scroller{
+        scroll-padding-inline: 14vw;
+        padding-left: 14vw;
+        gap: 15px;
+        height: 70vh;
+        overflow: hidden;
+    }
+    .card{
+        flex: 0 0 65vw;
+        height: 35vh;
+    }
+    .search-bar{
+       display: none;
+    }
+    .menu i{
+        font: 14px;
+    }
+    .logo img{
+        height: 100px;
+    }
+    .details{
+        margin-left: 5vw;
+    }
+}
+
