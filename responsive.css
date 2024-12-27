@@ -103,6 +103,7 @@
        display: none;
     }
     .menu i{
+        margin-left: 20px;
         font: 14px;
     }
     .logo img{
