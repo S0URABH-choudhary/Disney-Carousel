@@ -82,17 +82,21 @@
 
 @media only screen and (max-width: 426px) {
     #loader img{
+        top: 40%;
         width: 100%;
     }
 
     .menu h3{
         display: none;
     }
+    nav{
+        height: 10vh;
+    }
     .scroller{
         scroll-padding-inline: 14vw;
         padding-left: 14vw;
         gap: 15px;
-        height: 70vh;
+        height: 80vh;
         overflow: hidden;
     }
     .card{
@@ -102,9 +106,11 @@
     .search-bar{
        display: none;
     }
+    .menu{
+        margin-right: 4vw;
+    }
     .menu i{
-        margin-left: 20px;
-        font: 14px;
+        font-size: 25px;
     }
     .logo img{
         height: 100px;
